@@ -2,8 +2,8 @@
 
 ## Modélisation
 
-Users
-  email:string [unique, present]
+* Users
+  * email:string [unique, present]
   password:string [6-16 chars, present]
   id:integer
   created_at:datetime
